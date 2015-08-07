@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Navigate Away example</title>
+<link rel="stylesheet" href="jquery-ui-1.11.4.css">
+<link rel="stylesheet" href="nav.css">
+<script type="text/javascript" src="underscore-1.8.3.js"></script>
+<script type="text/javascript" src="jquery-2.1.4.js"></script>
+<script type="text/javascript" src="jquery-ui-1.11.4.js"></script>
+<script type="text/javascript" src="backbone-1.2.1.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Tab 1</a></li>
+			<li><a href="#tabs-2">Tab 2</a></li>
+		</ul>
+		<div id="tabs-1">
+			<div id='view1'>
+				<p>Enter data for Model A</p>
+				<label for='fielda1'>Field a1:</label> <input id='fielda1' name='a1'></input>
+				<label for='fielda2'>Field a2:</label> <input id='fielda2' name='a2'></input>
+				<button class='save-button'>Save</button>
+				<p class='message'></p>
+			</div>
+		</div>
+		<div id="tabs-2">
+			<div id='view2'>
+				<p>Enter data for Model B</p>
+				<label for='fieldb1'>Field b1:</label> <input id='fieldb1' name='b1'></input>
+				<button class='save-button'>Save</button>
+				<p class='message'></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
